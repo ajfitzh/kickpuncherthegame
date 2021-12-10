@@ -1,0 +1,54 @@
+{
+  "scores": [
+    {
+      "Name": "AAA",
+      "Enemies_killed": 4,
+      "id": 1
+    },
+    {
+      "Name": "BIF",
+      "Enemies_killed": 2,
+      "id": 2
+    },
+    {
+      "Name": "RRP",
+      "Enemies_killed": 8,
+      "id": 3
+    },
+    {
+      "Name": "AJF",
+      "Enemies_killed": 1,
+      "id": 4
+    },
+    {
+      "Name": "AFS",
+      "Enemies_killed": 1,
+      "id": 5
+    },
+    {
+      "Name": "STD",
+      "Enemies_killed": 0,
+      "id": 6
+    },
+    {
+      "Name": "BOB",
+      "Enemies_killed": 2,
+      "id": 7
+    },
+    {
+      "Name": "JAN",
+      "Enemies_killed": 6,
+      "id": 8
+    },
+    {
+      "Name": "SUE",
+      "Enemies_killed": 0,
+      "id": 9
+    },
+    {
+      "Name": "PHI",
+      "Enemies_killed": 0,
+      "id": 10
+    }
+  ]
+}

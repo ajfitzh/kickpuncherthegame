@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<head>
+<!-- <canvas id="rain"></canvas> -->
+<!-- <link href="https://fonts.googleapis.com/css?family=Gayathri&display=swap" rel="stylesheet"> -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+<link href="styles.css" rel="stylesheet">
+</head>
+<body>
+<div class="creditsoundtrack">
+  <div id="credits"><p>Artwork and Coding by: Adam Shaw and Austin FitzHugh</p></div>
+  <div><button id="soundtrack" onClick="togglePlay()" >Play/Pause Soundtrack</button></div>
+</div>
+<div id="container">
+  
+  <span> NOTE: Play in Full Screen for Best Experience. </span>
+  <br><br>
+  <span>You a Kickpuncher, mate? Tell me your name and weapon you use below.</span>
+  <div>
+    <form id="new-fighter">
+      <label for="name">Name: </label>
+      <input type="text" class="nameweapon" name="name" id="newName" />
+      <select id="weapon-dropdown" class= "nameweapon" name="selectWeapon">
+        <option value="foot">Foot</option>
+        <option value="fist">Fist</option>
+        <option value="katana">Katana</option>
+        <option value="machine-gun">Machine Gun</option>
+      </select>
+    <input type="submit" id="submitstyle" class="btn" value="Submit">
+    <br></br>
+    <span> ------HIGH SCORE------ </span>
+    <br></br>
+    <span> Name----Enemies Killed </span>
+    <ol class= "numbers" id="fronttopscore"></ol>
+
+    <!-- <script src ="rain.js"></script> -->
+    </div>
+
+<script src ="index.js"></script>
+<script src ="storyline.js"></script>
+
+</body>
