@@ -1,0 +1,454 @@
+#backgroundcity{
+  position:absolute;
+  width: 1100px;
+  height: 480px;
+  top: 270px;
+  left: 755px;
+  background-color: black;
+  z-index:-1;
+  opacity:0.7;
+}
+
+.pizzajoint{
+  position:fixed;
+  width: 700px;
+  height: 300px;
+  z-index:-1;
+}
+
+.creditsoundtrack{
+  position: fixed;
+  bottom: 110px;
+  right: 70px;
+  
+}
+
+#soundtrack{
+  font-weight: 400;
+  text-transform: uppercase;
+  font-size: 20px;
+  color: #111;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+  transition: all300ms ease;
+  border-radius: 20px;
+  font-family: 'Press Start 2P', 'Arial';
+}
+/* Healthbar progress */
+        /* For Firefox */
+        progress::-moz-progress-bar {
+          background: green;
+      }
+
+      /* For Chrome or Safari */
+      progress::-webkit-progress-value {
+          background: green;
+      }
+
+      /* For IE10 */
+      progress {
+          background: green;
+      }
+
+/* Credit to Adam Shaw for nameweapon and submitstyle!! */
+     .nameweapon {
+      width:200px;
+      padding:15px;
+      box-sizing: border-box;
+      margin:10px 10px; 
+      border: 2px solid #eee;
+      box-shadow:0 0 15px 4px rgba(0,0,0,0.15);
+      border-radius:10px;
+      width:20%;
+      font-family: 'Press Start 2P', 'Arial';
+      font-size:18px;
+    
+    }
+    #attack{
+      font-weight: 400;
+      text-transform: uppercase;
+      font-size: 20px;
+      color: #111;
+      box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+      transition: all300ms ease;
+      border-radius: 20px;
+      font-family: 'Press Start 2P', 'Arial';
+    }
+    #special-attack{
+      font-weight: 400;
+      text-transform: uppercase;
+      font-size: 20px;
+      color: #111;
+      box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+      transition: all300ms ease;
+      border-radius: 20px;
+      font-family: 'Press Start 2P', 'Arial';
+    }
+
+    #heal{
+      font-weight: 400;
+      text-transform: uppercase;
+      font-size: 20px;
+      color: #111;
+      box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+      transition: all300ms ease;
+      border-radius: 20px;
+      font-family: 'Press Start 2P', 'Arial';
+    }
+
+    #give-up{
+      font-weight: 400;
+      text-transform: uppercase;
+      font-size: 20px;
+      color: #111;
+      box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+      transition: all300ms ease;
+      border-radius: 20px;
+      font-family: 'Press Start 2P', 'Arial';
+    }
+    
+    #submitstyle {
+      font-weight: 400;
+      text-transform: uppercase;
+      font-size: 20px;
+      color: #111;
+      box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+      transition: all300ms ease;
+      border-radius: 10px;
+      font-family: 'Press Start 2P', 'Arial';
+      /* width: 100px;
+      padding:15px;
+      box-sizing: border-box;
+      margin:10px 50px; 
+      background-color: rgb(124, 127, 129);
+      border: 2px solid rgb(235, 61, 61);
+      box-shadow:0 0 10px 1px rgba(255, 220, 66, 0.918);
+      border-radius:10px;
+      width:10%;
+      
+      font-size: 15px;
+      color: black; */
+    }
+
+    #submitstyle:hover {
+      box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset,
+      rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+  }
+
+/* test for textbox */
+body {
+   display:inline-block;
+   width: 100%;
+   text-align: center;
+   color: white;
+   margin-top: 10%;
+   background-color:white;
+   background-image:  url("./assets/VideoGameBack.jpg");
+   background-repeat: no-repeat;
+   background-size:100%;
+   background-attachment:fixed;
+   line-height: 1.5;/* z-index: 1; */
+  }
+ .dialogueimage {
+   width: 10%;
+ } 
+ 
+ span {
+   position: relative;
+   display: inline-block;
+ }
+
+
+ span:after {
+   content: "";
+   position: absolute;
+   width: 100%;
+   height: 100%;
+   top: 0;
+   left: 105%;
+   animation: slide 1s ease;
+   
+   /* background: black; */
+   /* z-index: -1; */
+   /* box-shadow: 0 0 15px black, 0 0 10px black, 0 0 5px black; */
+ }
+
+ .gameover {
+   font-size: 100px;
+   color:red;
+ }
+
+ .battleoptions {
+   /* border: 1px solid white;
+   border-radius: 30px; */
+   padding: 10px;
+   height: 60px;
+   width: 50px;
+   position: absolute;
+   top: 50%;
+   left: 7%;
+   line-height: 5px;
+ }
+.sports{
+  height: 200px;
+  width: 200px;
+  background-image: url('./assets/pingpong.jpg');
+  top: 1%;
+  margin-left: auto;
+  margin-right: 58%;
+  z-index: 0;}
+
+ .herostats {
+  height: 500px;
+  width: 300px;
+  border: 1px solid white;
+  border-radius: 30px;
+  position: absolute;
+  top: 6%;
+  left: 15%;
+}
+.battleMessage{
+  z-index: 0.6;
+  font-size: 15px;
+  list-style-type: none;  
+}
+.dialogueimage{
+  border:5px solid white;
+}
+ .enemystats {
+  height: 500px;
+  width: 300px;
+  border: 1px solid white;
+  border-radius: 30px;
+  position: absolute;
+  top: 6%;
+  left: 75%;
+ }
+
+ .controllercomplete{
+   position:relative;
+ }
+ 
+ .controller {
+  position:fixed;
+  bottom: 172px;
+  left: 910px;
+   z-index: 0;
+ }
+ #greenbutton{
+  position:fixed;
+  bottom: 273px;
+  left: 1444px;
+  transform: translate(-50%,-50%);
+  margin: 0 auto;
+  z-index: 1;
+ }
+ #greenbutton:active{
+  position:fixed;
+  bottom: 270px;
+  left: 1446px;
+  margin: 0 auto;
+  z-index: 1;
+ }
+
+ #redbutton{
+  position:fixed;
+  bottom: 271px;
+  left: 1588px;
+  transform: translate(-50%,-50%);
+  margin: 0 auto;
+  z-index: 1;
+}
+
+#redbutton:active{
+  position:fixed;
+  bottom: 272px;
+  left: 1590px;
+  transform: translate(-50%,-50%);
+  margin: 0 auto;
+  z-index: 1;
+}
+ #bluebutton{
+  position:fixed;
+  bottom: 329px;
+  left: 1517px;
+  transform: translate(-50%,-50%);
+  margin: 0 auto;
+  z-index: 1;
+ }
+ #bluebutton:active{
+  position:fixed;
+  bottom: 326px;
+  left: 1518px;
+  transform: translate(-50%,-50%);
+  margin: 0 auto;
+  z-index: 1;
+ }
+ #yellowbutton{
+  position:fixed;
+  bottom: 221px;
+  left: 1516px;
+  transform: translate(-50%,-50%);
+  margin: 0 auto;
+  z-index: 1;
+ }
+ #yellowbutton:active{
+  position:fixed;
+  bottom: 220px;
+  left: 1517px;
+  transform: translate(-50%,-50%);
+  margin: 0 auto;
+  z-index: 1;
+ }
+
+#dialogueimage{
+  width: 30%;
+  /* height: 500px; */
+}
+ @keyframes slide {
+   0% {
+       left: 0;
+   }
+   100% {
+       left: 105%;
+   }
+ }
+ 
+ /* #topscore {
+ } */
+ /* List */
+ body {
+  /* position: absolute; */
+  top: 40%;
+  left: 40%;
+
+  font-size: 16px;
+  font-family: 'Press Start 2P', cursive;
+  background: repeating-linear-gradient(
+    to bottom,
+    #0f0a1e,
+    #0f0a1e 2px,
+    lighten(#0f0a1e, 3%) 2px,
+    lighten(#0f0a1e, 3%) 4px
+  )
+}
+
+#highscoresurvey{
+  font-family: 'Press Start 2P', 'Arial';
+}
+#submit{
+  font-family: 'Press Start 2P', 'Arial';
+}
+
+#initials{
+  font-family: 'Press Start 2P', 'Arial';
+}
+#topscore {
+  margin-right: 3%;
+}
+#fronttopscore {
+  margin-right: 3%;
+}
+
+
+/* Taken from tutorials at w3schools.com */
+#animationcontainer {
+  left: 440px;
+  top: 190px;
+  width: 1900px;
+  height: 400px;
+  position: fixed;
+  z-index: 0.5;
+}
+#herofist {
+  width: 80px;
+  height: 70px;
+  left: 0;
+  position: absolute;
+  z-index: 0.5;
+}
+#herofoot {
+  width: 80px;
+  height: 70px;
+  left: 0;
+  position: absolute;
+  z-index: 0.5;
+}
+.move-ltr{
+  -webkit-animation: moveltr 1s;
+ animation: moveltr 1s;
+}
+
+@keyframes moveltr {
+ 0%   { left: 50px; top: 0px;}
+ 50%  {left: 200px; top: 0px;}
+ 100% {left: 50px; top: 0px;}
+}
+
+#heroburger {
+  width: 80px;
+  height: 70px;
+  left: 0;
+  position: absolute;
+  z-index: 0.5;
+}
+#enemybullet {
+  width: 100px;
+  height: 30px;
+  right: 250px;
+  position: absolute;
+  z-index: 0.5;
+}
+
+#enemybook {
+  width: 100px;
+  height: 70px;
+  right: 250px;
+  position: absolute;
+  z-index: 0.5;
+}
+#enemymolotov {
+  width: 100px;
+  height: 70px;
+  right: 250px;
+  position: absolute;
+  z-index: 0.5;
+}
+#enemyskull {
+  width: 100px;
+  height: 70px;
+  right: 250px;
+  position: absolute;
+  z-index: 0.5;
+}
+#enemynuke {
+  width: 100px;
+  height: 70px;
+  right: 250px;
+  position: absolute;
+  z-index: 0.5;
+}
+/* shake */
+
+@keyframes shake {
+  10%, 90% {
+    transform: translate3d(-1px, 0, 0);
+  }
+
+  20%, 80% {
+    transform: translate3d(2px, 0, 0);
+  }
+
+  30%, 50%, 70% {
+    transform: translate3d(-4px, 0, 0);
+  }
+
+  40%, 60% {
+    transform: translate3d(4px, 0, 0);
+  }
+}
+
+.shake {
+    animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
+}
+
+

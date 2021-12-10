@@ -1,2 +1,2 @@
-# kickpuncherthegame
-KickPuncher
+# kp-wireframe-test
+KickPuncher WireFrame tests
